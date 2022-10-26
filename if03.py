@@ -16,7 +16,7 @@ def main(a,b,c):
         ma=c
     if mi>b:
         mi=b
-    if mi<c:
+    if mi>c:
         mi=c
     
     return a+b+c-mi-ma
