@@ -19,18 +19,18 @@ def main(n):
     k=0
     if m <x1:
         m=x1
-        k=0
+        k=1
     if m <x2:
         m=x2
-        k=1
+        k=2
     if m <x3:
         m=x3
-        k=2
+        k=3
     if m <x4:
         m=x4
-        k=3
+        k=4
     if m <x5:
         m=x5
-        k=4
+        k=5
     return k
 print(main(12345))
