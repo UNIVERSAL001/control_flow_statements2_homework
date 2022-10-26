@@ -16,7 +16,7 @@ def main(n):
     n//=10
     x5=n%10
     m = x1
-    k=0
+    k=1
     if m <x1:
         m=x1
         k=1
