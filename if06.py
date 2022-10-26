@@ -15,15 +15,22 @@ def main(n):
     x4=n%10
     n//=10
     x5=n%10
-    m = 0
+    m = x1
+    k=0
     if m <x1:
-        m=0
+        m=x1
+        k=0
     if m <x2:
-        m=1
+        m=x2
+        k=1
     if m <x3:
-        m=2
+        m=x3
+        k=2
     if m <x4:
-        m=3
+        m=x4
+        k=3
     if m <x5:
-        m=4
-    return m
+        m=x5
+        k=4
+    return k
+print(main(12345))
