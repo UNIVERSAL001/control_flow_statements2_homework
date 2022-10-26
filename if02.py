@@ -10,7 +10,7 @@ def main(a,b,c):
     """
     m = a
     if m>b:
-        m=a
+        m=b
     if m>c:
         m=c
     return m
