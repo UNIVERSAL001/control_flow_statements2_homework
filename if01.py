@@ -13,5 +13,6 @@ def main(a,b,c):
         m=b
     if c>m:
         m=c
-
     return m
+
+print(main(60,2,3))
