@@ -8,4 +8,15 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    ma = a
+    mi = a
+    if ma<b:
+        ma=b
+    if ma<c:
+        ma=c
+    if mi>b:
+        mi=b
+    if mi<c:
+        mi=c
+    
+    return a+b+c-mi-ma
