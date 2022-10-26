@@ -11,6 +11,6 @@ def main(a,b):
         return 0
     if a!=b:
         if a>b:
-            return a:
+            return a
         else:
             return b
