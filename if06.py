@@ -17,13 +17,13 @@ def main(n):
     x5=n%10
     m = 0
     if m <x1:
-        m=1
+        m=0
     if m <x2:
-        m=2
+        m=1
     if m <x3:
-        m=3
+        m=2
     if m <x4:
-        m=4
+        m=3
     if m <x5:
-        m=5
+        m=4
     return m
